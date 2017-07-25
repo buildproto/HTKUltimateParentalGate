@@ -78,7 +78,7 @@ static NSString *HTKParentalGateTimeRemainingSecondsKey = @"HTKParentalGateTimeR
 /**
  * Size of the balls. 44 should be smallest for best usability.
  */
-static const CGFloat HTKParentalGateBallSize = 44;
+static const CGFloat HTKParentalGateBallSize = 88;
 
 /**
  * Strings that represent the messages displayed to user when alerts
@@ -91,17 +91,17 @@ static NSString *HTKParentalGateAlertTimesUpMessage = @"The Parental Gate has cl
 /**
  * How many balls to display on the screen at once.
  */
-static const NSInteger HTKParentalGateMaxNumberOfBalls = 8;
+static const NSInteger HTKParentalGateMaxNumberOfBalls = 5;
 
 /**
  * Minimum velocity in points per second.
  */
-static const NSInteger HTKParentalGateMinVelocityPerSecond = 75;
+static const NSInteger HTKParentalGateMinVelocityPerSecond = 60;
 
 /**
  * Maximum velocity in points per second.
  */
-static const NSInteger HTKParentalGateMaxVelocityPerSecond = 125;
+static const NSInteger HTKParentalGateMaxVelocityPerSecond = 100;
 
 /**
  * How many seconds the user should be allowed to attempt answering the
